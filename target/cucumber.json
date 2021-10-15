@@ -1,0 +1,811 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 145353200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page of Real Estate",
+            "match": {
+              "location": "SignUpDefinition.admin_is_on_the_login_page_of_real_estate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 293605400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"amit92luthra\" and password \"admin@987654321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amit92luthra",
+                  "offset": 29
+                },
+                {
+                  "val": "admin@987654321",
+                  "offset": 57
+                }
+              ],
+              "location": "SignUpDefinition.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1840096500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "SignUpDefinition.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54545800,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat StepDefinition.SignUpDefinition.will_be_redirected_to_the_the_dashboard_of_the_real_estate_page(SignUpDefinition.java:77)\r\n\tat ✽.And will be redirected to the the dashboard of the real estate page(Profile.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the real estate page",
+            "match": {
+              "location": "SignUpDefinition.will_be_redirected_to_the_the_dashboard_of_the_real_estate_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "will click on the Users",
+            "match": {
+              "location": "SignUpDefinition.will_click_on_the_Users()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "will click on the Your Profile",
+            "match": {
+              "location": "SignUpDefinition.will_click_on_the_Your_Profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the Your Profile page",
+            "match": {
+              "location": "SignUpDefinition.admin_will_be_redirected_to_the_Your_Profile_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13081486600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks1.initialization()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "",
+        "description": "",
+        "id": "i-want-to-use-this-template-to-make-changes-into-my-profile;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 690638200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks1.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user will enter the value under Personal Options",
+            "match": {
+              "location": "SignUpDefinition.user_will_enter_the_value_under_Personal_Options()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user will click on Visual Editor",
+            "match": {
+              "location": "SignUpDefinition.user_will_click_on_Visual_Editor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user will click on Syntax Highlighting",
+            "match": {
+              "location": "SignUpDefinition.user_will_click_on_Syntax_Highlighting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user will click on Admin Color Scheme",
+            "match": {
+              "location": "SignUpDefinition.user_will_click_on_Admin_Color_Scheme()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user will click on Keyboard Shortcuts",
+            "match": {
+              "location": "SignUpDefinition.user_will_click_on_Keyboard_Shortcuts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user will click on Toolbar",
+            "match": {
+              "location": "SignUpDefinition.user_will_click_on_Toolbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user enters the value under Name section",
+            "match": {
+              "location": "SignUpDefinition.user_enters_the_value_under_Name_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user will check if the Username is \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 36
+                }
+              ],
+              "location": "SignUpDefinition.user_will_check_if_the_Username_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user will write \"simran\" in the First Name place",
+            "match": {
+              "arguments": [
+                {
+                  "val": "simran",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_the_First_Name_place(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user will write \"gupta\" in the Last Name place",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gupta",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_the_Last_Name_place(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user will write \"simmy\" in the Nickname place",
+            "match": {
+              "arguments": [
+                {
+                  "val": "simmy",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_the_Nickname_place(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user will select Display name publicly as",
+            "match": {
+              "location": "SignUpDefinition.user_will_select_Display_name_publicly_as()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user enters the value under Contact Info",
+            "match": {
+              "location": "SignUpDefinition.user_enters_the_value_under_Contact_Info()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user will write \"simran78@gmail.com\" in Email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "simran78@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Email(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user will write \"www.indianfood.com\" in Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.indianfood.com",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Website(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user will write \"9876543210\" in Phone",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9876543210",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Phone(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user will write \"https://twitter.com/simran78\" in Twitter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://twitter.com/simran78",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Twitter(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user will write \"https://www.facebook.com/simran78/\" in Facebook URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.facebook.com/simran78/",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Facebook_URL(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user will write \"https://www.linkedin.com/in/joinsimran\" in Linkedin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.linkedin.com/in/joinsimran",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Linkedin(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user enters the value under About Yourself",
+            "match": {
+              "location": "SignUpDefinition.user_enters_the_value_under_About_Yourself()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user will write \"Tester\" in Biographical Info",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Biographical_Info(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user will click on Gravatar on Profile Picture field",
+            "match": {
+              "location": "SignUpDefinition.user_will_click_on_Gravatar_on_Profile_Picture_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user will write \"System@64#$%^\u0026\" in New Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "System@64#$%^\u0026",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_New_Password(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "user will click on Log Out Everywhere Else",
+            "match": {
+              "location": "SignUpDefinition.user_will_click_on_Log_Out_Everywhere_Else()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "user will enter the value under Realteo Avatar",
+            "match": {
+              "location": "SignUpDefinition.user_will_enter_the_value_under_Realteo_Avatar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "user will write \"minion\" in Agent Avatar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "minion",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Agent_Avatar(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "user will check for Extra profile information",
+            "match": {
+              "location": "SignUpDefinition.user_will_check_for_Extra_profile_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "user will write \"Miss\" in Title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Miss",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Title(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "user will check for Customer billing address",
+            "match": {
+              "location": "SignUpDefinition.user_will_check_for_Customer_billing_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "user will write \"Anuradha\" in First Name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anuradha",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_First_Name_field(String)"
+            },
+            "matchedColumns": [
+              13
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user will write \"Gupta\" in Last Name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gupta",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Last_Name_field(String)"
+            },
+            "matchedColumns": [
+              14
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user will write \"Wipro\" in Company field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Wipro",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Company_field(String)"
+            },
+            "matchedColumns": [
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user will write \"Church Road\" in Address line1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Church Road",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Address_line1(String)"
+            },
+            "matchedColumns": [
+              16
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "user will write \"Civil Lines\" in Address line2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Civil Lines",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Address_line2(String)"
+            },
+            "matchedColumns": [
+              17
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "user will write \"Gaya\" in City field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gaya",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_City_field(String)"
+            },
+            "matchedColumns": [
+              18
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "user will write \"823001\" in Postcode / ZIP",
+            "match": {
+              "arguments": [
+                {
+                  "val": "823001",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Postcode_ZIP(String)"
+            },
+            "matchedColumns": [
+              19
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "user will select Country",
+            "match": {
+              "location": "SignUpDefinition.user_will_select_Country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "user will select State / County",
+            "match": {
+              "location": "SignUpDefinition.user_will_select_State_County()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "user will write \"8791234560\" in Phone field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8791234560",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Phone_field(String)"
+            },
+            "matchedColumns": [
+              20
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "user will write \"anuradha@gmail.com\" in Email address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anuradha@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUpDefinition.user_will_write_in_Email_address(String)"
+            },
+            "matchedColumns": [
+              21
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "user will click Copy",
+            "match": {
+              "location": "SignUpDefinition.user_will_click_Copy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "will click on Update Profile",
+            "match": {
+              "location": "SignUpDefinition.will_click_on_Update_Profile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "I want to use this template to make changes into my profile",
+    "description": "",
+    "id": "i-want-to-use-this-template-to-make-changes-into-my-profile",
+    "keyword": "Feature",
+    "uri": "Profile.feature"
+  }
+]

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.105726">
+    <testcase classname="I want to use this template to make changes into my profile" name="_2" time="16.105726">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at StepDefinition.SignUpDefinition.will_be_redirected_to_the_the_dashboard_of_the_real_estate_page(SignUpDefinition.java:77)&#13;&#10;&#9;at ✽.And will be redirected to the the dashboard of the real estate page(Profile.feature:7)&#13;&#10;"><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When admin will enter the UserId "amit92luthra" and password "admin@987654321".passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the real estate page.........failed
+And will click on the Users.................................................skipped
+And will click on the Your Profile..........................................skipped
+Then admin will be redirected to the Your Profile page......................skipped
+When user will enter the value under Personal Options.......................skipped
+And user will click on Visual Editor........................................skipped
+And user will click on Syntax Highlighting..................................skipped
+And user will click on Admin Color Scheme...................................skipped
+And user will click on Keyboard Shortcuts...................................skipped
+And user will click on Toolbar..............................................skipped
+When user enters the value under Name section...............................skipped
+And user will check if the Username is "admin"..............................skipped
+And user will write "simran" in the First Name place........................skipped
+And user will write "gupta" in the Last Name place..........................skipped
+And user will write "simmy" in the Nickname place...........................skipped
+And user will select Display name publicly as...............................skipped
+When user enters the value under Contact Info...............................skipped
+And user will write "simran78@gmail.com" in Email...........................skipped
+And user will write "www.indianfood.com" in Website.........................skipped
+And user will write "9876543210" in Phone...................................skipped
+And user will write "https://twitter.com/simran78" in Twitter...............skipped
+And user will write "https://www.facebook.com/simran78/" in Facebook URL....skipped
+And user will write "https://www.linkedin.com/in/joinsimran" in Linkedin....skipped
+When user enters the value under About Yourself.............................skipped
+And user will write "Tester" in Biographical Info...........................skipped
+And user will click on Gravatar on Profile Picture field....................skipped
+And user will write "System@64#$%^&" in New Password........................skipped
+And user will click on Log Out Everywhere Else..............................skipped
+When user will enter the value under Realteo Avatar.........................skipped
+And user will write "minion" in Agent Avatar................................skipped
+When user will check for Extra profile information..........................skipped
+And user will write "Miss" in Title.........................................skipped
+When user will check for Customer billing address...........................skipped
+And user will write "Anuradha" in First Name field..........................skipped
+And user will write "Gupta" in Last Name field..............................skipped
+And user will write "Wipro" in Company field................................skipped
+And user will write "Church Road" in Address line1..........................skipped
+And user will write "Civil Lines" in Address line2..........................skipped
+And user will write "Gaya" in City field....................................skipped
+And user will write "823001" in Postcode / ZIP..............................skipped
+And user will select Country................................................skipped
+And user will select State / County.........................................skipped
+And user will write "8791234560" in Phone field.............................skipped
+And user will write "anuradha@gmail.com" in Email address...................skipped
+And user will click Copy....................................................skipped
+Then will click on Update Profile...........................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at StepDefinition.SignUpDefinition.will_be_redirected_to_the_the_dashboard_of_the_real_estate_page(SignUpDefinition.java:77)
+	at ✽.And will be redirected to the the dashboard of the real estate page(Profile.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>
