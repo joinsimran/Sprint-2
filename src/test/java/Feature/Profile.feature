@@ -2,7 +2,7 @@ Feature: I want to use this template to make changes into my profile
 
   Background: SignUp
     Given Admin is on the login page of Real Estate
-    When admin will enter the UserId "amit92luthra" and password "admin@987654321"
+    When admin will enter the UserId "amit" and password "admin@987654321"
     And admin will click on the login button
     And will be redirected to the the dashboard of the real estate page
     And will click on the Users
