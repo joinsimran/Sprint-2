@@ -2,7 +2,7 @@ Feature: I want to use this template to make changes into my profile
 
   Background: SignUp
     Given Admin is on the login page of Real Estate
-    When admin will enter the UserId "mohankrishna176@gmail.com" and password "secret@123"
+    When admin will enter the UserId "mohankrishna176@gmail.com" and password "Secret@123&&"
     And admin will click on the login button
     And will be redirected to the the dashboard of the real estate page
     And will click on the Users
@@ -10,12 +10,12 @@ Feature: I want to use this template to make changes into my profile
     Then admin will be redirected to the Your Profile page
 
   Scenario Outline: 
-  	When user will enter the value under Personal Options
-  	And user will click on Visual Editor
-  	And user will click on Syntax Highlighting
-  	And user will click on Admin Color Scheme
-  	And user will click on Keyboard Shortcuts
-  	And user will click on Toolbar
+    When user will enter the value under Personal Options
+    And user will click on Visual Editor
+    And user will click on Syntax Highlighting
+    And user will click on Admin Color Scheme
+    And user will click on Keyboard Shortcuts
+    And user will click on Toolbar
     When user enters the value under Name section
     And user will check if the Username is "admin"
     And user will write "<name>" in the First Name place
@@ -54,5 +54,5 @@ Feature: I want to use this template to make changes into my profile
     Then will click on Update Profile
 
     Examples: 
-      | name   | lastname | nickname | email              | website            | phone_no   | twitter                      | facebook                           | linkedin                               | bio    | pwd            | avatar | title | first_name | last_name | company | add_line1   | add_line2   | city | pincode | phone      | email_id           |
-      | simran | gupta    | simmy    | simran78@gmail.com | www.indianfood.com | 9876543210 | https://twitter.com/simran78 | https://www.facebook.com/simran78/ | https://www.linkedin.com/in/joinsimran | Tester | System@64#$%^& | minion | Miss  | Anuradha   | Gupta     | Wipro   | Church Road | Civil Lines | Gaya |  823001 | 8791234560 | anuradha@gmail.com |
+      | name   | lastname | nickname | email              | website            | phone_no   | twitter                      | facebook                           | linkedin                               | bio    | pwd          | avatar | title | first_name | last_name | company | add_line1   | add_line2   | city | pincode | phone      | email_id           |
+      | simran | gupta    | simmy    | simran78@gmail.com | www.indianfood.com | 9876543210 | https://twitter.com/simran78 | https://www.facebook.com/simran78/ | https://www.linkedin.com/in/joinsimran | Tester | Secret@123&& | minion | Miss  | Anuradha   | Gupta     | Wipro   | Church Road | Civil Lines | Gaya |  823001 | 8791234560 | anuradha@gmail.com |
