@@ -54,5 +54,5 @@ Feature: I want to use this template to make changes into my profile
     Then will click on Update Profile
 
     Examples: 
-      | name   | lastname | nickname | email              | website            | phone_no   | twitter                      | facebook                           | linkedin                               | bio    | pwd          | avatar | title | first_name | last_name | company | add_line1   | add_line2   | city | pincode | phone      | email_id           |
-      | simran | gupta    | simmy    | simran78@gmail.com | www.indianfood.com | 9876543210 | https://twitter.com/simran78 | https://www.facebook.com/simran78/ | https://www.linkedin.com/in/joinsimran | Tester | Secret@123&& | minion | Miss  | Anuradha   | Gupta     | Wipro   | Church Road | Civil Lines | Gaya |  823001 | 8791234560 | anuradha@gmail.com |
+      | name   | lastname | nickname | email              | website            | phone_no   | twitter                      | facebook                           | linkedin                             | bio    | pwd          | avatar | title | first_name | last_name | company | add_line1   | add_line2   | city | pincode | phone      | email_id           |
+      | simran | gupta    | simmy    | simran78@gmail.com | www.indianfood.com | 9876543210 | https://twitter.com/simran78 | https://www.facebook.com/simran78/ | https://www.linkedin.com/in/simran78 | Tester | Secret@123&& | minion | Miss  | Anuradha   | Gupta     | Wipro   | Church Road | Civil Lines | Gaya |  823001 | 8791234560 | anuradha@gmail.com |

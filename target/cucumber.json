@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 145353200,
+              "duration": 520443900,
               "status": "passed"
             },
             "line": 4,
@@ -23,20 +23,20 @@
           },
           {
             "result": {
-              "duration": 293605400,
+              "duration": 471567500,
               "status": "passed"
             },
             "line": 5,
-            "name": "admin will enter the UserId \"amit92luthra\" and password \"admin@987654321\"",
+            "name": "admin will enter the UserId \"mohankrishna176@gmail.com\" and password \"Secret@123\u0026\u0026\"",
             "match": {
               "arguments": [
                 {
-                  "val": "amit92luthra",
+                  "val": "mohankrishna176@gmail.com",
                   "offset": 29
                 },
                 {
-                  "val": "admin@987654321",
-                  "offset": 57
+                  "val": "Secret@123\u0026\u0026",
+                  "offset": 70
                 }
               ],
               "location": "SignUpDefinition.admin_will_enter_the_UserId_and_password(String,String)"
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 1840096500,
+              "duration": 11053212700,
               "status": "passed"
             },
             "line": 6,
@@ -57,9 +57,8 @@
           },
           {
             "result": {
-              "duration": 54545800,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat StepDefinition.SignUpDefinition.will_be_redirected_to_the_the_dashboard_of_the_real_estate_page(SignUpDefinition.java:77)\r\n\tat ✽.And will be redirected to the the dashboard of the real estate page(Profile.feature:7)\r\n",
-              "status": "failed"
+              "duration": 143810400,
+              "status": "passed"
             },
             "line": 7,
             "name": "will be redirected to the the dashboard of the real estate page",
@@ -70,7 +69,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2066218100,
+              "status": "passed"
             },
             "line": 8,
             "name": "will click on the Users",
@@ -81,7 +81,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3184421100,
+              "status": "passed"
             },
             "line": 9,
             "name": "will click on the Your Profile",
@@ -92,7 +93,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 58338400,
+              "status": "passed"
             },
             "line": 10,
             "name": "admin will be redirected to the Your Profile page",
@@ -107,7 +109,7 @@
         "before": [
           {
             "result": {
-              "duration": 13081486600,
+              "duration": 42268861000,
               "status": "passed"
             },
             "match": {
@@ -122,7 +124,7 @@
         "after": [
           {
             "result": {
-              "duration": 690638200,
+              "duration": 961032200,
               "status": "passed"
             },
             "match": {
@@ -135,7 +137,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 49521700,
+              "status": "passed"
             },
             "line": 13,
             "name": "user will enter the value under Personal Options",
@@ -146,7 +149,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 145890799,
+              "status": "passed"
             },
             "line": 14,
             "name": "user will click on Visual Editor",
@@ -157,7 +161,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 171449901,
+              "status": "passed"
             },
             "line": 15,
             "name": "user will click on Syntax Highlighting",
@@ -168,7 +173,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 119626900,
+              "status": "passed"
             },
             "line": 16,
             "name": "user will click on Admin Color Scheme",
@@ -179,7 +185,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 95776300,
+              "status": "passed"
             },
             "line": 17,
             "name": "user will click on Keyboard Shortcuts",
@@ -190,7 +197,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 110923899,
+              "status": "passed"
             },
             "line": 18,
             "name": "user will click on Toolbar",
@@ -201,7 +209,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 41979400,
+              "status": "passed"
             },
             "line": 19,
             "name": "user enters the value under Name section",
@@ -212,7 +221,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 88521700,
+              "status": "passed"
             },
             "line": 20,
             "name": "user will check if the Username is \"admin\"",
@@ -229,7 +239,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1223580000,
+              "status": "passed"
             },
             "line": 21,
             "name": "user will write \"simran\" in the First Name place",
@@ -249,7 +260,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1272504000,
+              "status": "passed"
             },
             "line": 22,
             "name": "user will write \"gupta\" in the Last Name place",
@@ -269,7 +281,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1253280501,
+              "status": "passed"
             },
             "line": 23,
             "name": "user will write \"simmy\" in the Nickname place",
@@ -289,7 +302,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1267218600,
+              "status": "passed"
             },
             "line": 24,
             "name": "user will select Display name publicly as",
@@ -300,7 +314,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 33777200,
+              "status": "passed"
             },
             "line": 25,
             "name": "user enters the value under Contact Info",
@@ -311,7 +326,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1221549600,
+              "status": "passed"
             },
             "line": 26,
             "name": "user will write \"simran78@gmail.com\" in Email",
@@ -331,7 +347,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1225242300,
+              "status": "passed"
             },
             "line": 27,
             "name": "user will write \"www.indianfood.com\" in Website",
@@ -351,7 +368,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1228293300,
+              "status": "passed"
             },
             "line": 28,
             "name": "user will write \"9876543210\" in Phone",
@@ -371,7 +389,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1209700700,
+              "status": "passed"
             },
             "line": 29,
             "name": "user will write \"https://twitter.com/simran78\" in Twitter",
@@ -391,7 +410,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1251411300,
+              "status": "passed"
             },
             "line": 30,
             "name": "user will write \"https://www.facebook.com/simran78/\" in Facebook URL",
@@ -411,14 +431,15 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3281219100,
+              "status": "passed"
             },
             "line": 31,
-            "name": "user will write \"https://www.linkedin.com/in/joinsimran\" in Linkedin",
+            "name": "user will write \"https://www.linkedin.com/in/simran78\" in Linkedin",
             "match": {
               "arguments": [
                 {
-                  "val": "https://www.linkedin.com/in/joinsimran",
+                  "val": "https://www.linkedin.com/in/simran78",
                   "offset": 17
                 }
               ],
@@ -431,7 +452,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 68605000,
+              "status": "passed"
             },
             "line": 32,
             "name": "user enters the value under About Yourself",
@@ -442,7 +464,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3187959601,
+              "status": "passed"
             },
             "line": 33,
             "name": "user will write \"Tester\" in Biographical Info",
@@ -462,7 +485,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6045489899,
+              "status": "passed"
             },
             "line": 34,
             "name": "user will click on Gravatar on Profile Picture field",
@@ -473,14 +497,15 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3697095000,
+              "status": "passed"
             },
             "line": 35,
-            "name": "user will write \"System@64#$%^\u0026\" in New Password",
+            "name": "user will write \"Secret@123\u0026\u0026\" in New Password",
             "match": {
               "arguments": [
                 {
-                  "val": "System@64#$%^\u0026",
+                  "val": "Secret@123\u0026\u0026",
                   "offset": 17
                 }
               ],
@@ -493,7 +518,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 117733801,
+              "status": "passed"
             },
             "line": 36,
             "name": "user will click on Log Out Everywhere Else",
@@ -504,7 +530,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 36838401,
+              "status": "passed"
             },
             "line": 37,
             "name": "user will enter the value under Realteo Avatar",
@@ -515,7 +542,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1194262700,
+              "status": "passed"
             },
             "line": 38,
             "name": "user will write \"minion\" in Agent Avatar",
@@ -535,7 +563,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 62300500,
+              "status": "passed"
             },
             "line": 39,
             "name": "user will check for Extra profile information",
@@ -546,7 +575,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1169447901,
+              "status": "passed"
             },
             "line": 40,
             "name": "user will write \"Miss\" in Title",
@@ -566,7 +596,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 66108500,
+              "status": "passed"
             },
             "line": 41,
             "name": "user will check for Customer billing address",
@@ -577,7 +608,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1169399000,
+              "status": "passed"
             },
             "line": 42,
             "name": "user will write \"Anuradha\" in First Name field",
@@ -597,7 +629,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1215413300,
+              "status": "passed"
             },
             "line": 43,
             "name": "user will write \"Gupta\" in Last Name field",
@@ -617,7 +650,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1294431699,
+              "status": "passed"
             },
             "line": 44,
             "name": "user will write \"Wipro\" in Company field",
@@ -637,7 +671,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1283956601,
+              "status": "passed"
             },
             "line": 45,
             "name": "user will write \"Church Road\" in Address line1",
@@ -657,7 +692,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1258609799,
+              "status": "passed"
             },
             "line": 46,
             "name": "user will write \"Civil Lines\" in Address line2",
@@ -677,7 +713,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3355460600,
+              "status": "passed"
             },
             "line": 47,
             "name": "user will write \"Gaya\" in City field",
@@ -697,7 +734,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3384933000,
+              "status": "passed"
             },
             "line": 48,
             "name": "user will write \"823001\" in Postcode / ZIP",
@@ -717,7 +755,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1125340700,
+              "status": "passed"
             },
             "line": 49,
             "name": "user will select Country",
@@ -728,7 +767,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1140955300,
+              "status": "passed"
             },
             "line": 50,
             "name": "user will select State / County",
@@ -739,7 +779,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2260266300,
+              "status": "passed"
             },
             "line": 51,
             "name": "user will write \"8791234560\" in Phone field",
@@ -759,7 +800,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2219326600,
+              "status": "passed"
             },
             "line": 52,
             "name": "user will write \"anuradha@gmail.com\" in Email address",
@@ -779,7 +821,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2466271400,
+              "status": "passed"
             },
             "line": 53,
             "name": "user will click Copy",
@@ -790,7 +833,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4983133300,
+              "status": "passed"
             },
             "line": 54,
             "name": "will click on Update Profile",

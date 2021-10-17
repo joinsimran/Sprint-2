@@ -268,9 +268,9 @@ formatter.examples({
         "9876543210",
         "https://twitter.com/simran78",
         "https://www.facebook.com/simran78/",
-        "https://www.linkedin.com/in/joinsimran",
+        "https://www.linkedin.com/in/simran78",
         "Tester",
-        "System@64#$%^\u0026",
+        "Secret@123\u0026\u0026",
         "minion",
         "Miss",
         "Anuradha",
@@ -290,7 +290,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 13081486600,
+  "duration": 42268861000,
   "status": "passed"
 });
 formatter.background({
@@ -307,7 +307,7 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "admin will enter the UserId \"amit92luthra\" and password \"admin@987654321\"",
+  "name": "admin will enter the UserId \"mohankrishna176@gmail.com\" and password \"Secret@123\u0026\u0026\"",
   "keyword": "When "
 });
 formatter.step({
@@ -339,58 +339,60 @@ formatter.match({
   "location": "SignUpDefinition.admin_is_on_the_login_page_of_real_estate()"
 });
 formatter.result({
-  "duration": 145353200,
+  "duration": 520443900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "amit92luthra",
+      "val": "mohankrishna176@gmail.com",
       "offset": 29
     },
     {
-      "val": "admin@987654321",
-      "offset": 57
+      "val": "Secret@123\u0026\u0026",
+      "offset": 70
     }
   ],
   "location": "SignUpDefinition.admin_will_enter_the_UserId_and_password(String,String)"
 });
 formatter.result({
-  "duration": 293605400,
+  "duration": 471567500,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.admin_will_click_on_the_login_button()"
 });
 formatter.result({
-  "duration": 1840096500,
+  "duration": 11053212700,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.will_be_redirected_to_the_the_dashboard_of_the_real_estate_page()"
 });
 formatter.result({
-  "duration": 54545800,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat StepDefinition.SignUpDefinition.will_be_redirected_to_the_the_dashboard_of_the_real_estate_page(SignUpDefinition.java:77)\r\n\tat ✽.And will be redirected to the the dashboard of the real estate page(Profile.feature:7)\r\n",
-  "status": "failed"
+  "duration": 143810400,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.will_click_on_the_Users()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2066218100,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.will_click_on_the_Your_Profile()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3184421100,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.admin_will_be_redirected_to_the_Your_Profile_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 58338400,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 58,
@@ -516,7 +518,7 @@ formatter.step({
 });
 formatter.step({
   "line": 31,
-  "name": "user will write \"https://www.linkedin.com/in/joinsimran\" in Linkedin",
+  "name": "user will write \"https://www.linkedin.com/in/simran78\" in Linkedin",
   "matchedColumns": [
     8
   ],
@@ -542,7 +544,7 @@ formatter.step({
 });
 formatter.step({
   "line": 35,
-  "name": "user will write \"System@64#$%^\u0026\" in New Password",
+  "name": "user will write \"Secret@123\u0026\u0026\" in New Password",
   "matchedColumns": [
     10
   ],
@@ -680,43 +682,50 @@ formatter.match({
   "location": "SignUpDefinition.user_will_enter_the_value_under_Personal_Options()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 49521700,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_click_on_Visual_Editor()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 145890799,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_click_on_Syntax_Highlighting()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 171449901,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_click_on_Admin_Color_Scheme()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 119626900,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_click_on_Keyboard_Shortcuts()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 95776300,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_click_on_Toolbar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 110923899,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_enters_the_value_under_Name_section()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 41979400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -728,7 +737,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_check_if_the_Username_is(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 88521700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -740,7 +750,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_the_First_Name_place(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1223580000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -752,7 +763,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_the_Last_Name_place(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1272504000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -764,19 +776,22 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_the_Nickname_place(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1253280501,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_select_Display_name_publicly_as()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1267218600,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_enters_the_value_under_Contact_Info()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 33777200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -788,7 +803,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Email(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1221549600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -800,7 +816,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Website(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1225242300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -812,7 +829,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Phone(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1228293300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -824,7 +842,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Twitter(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1209700700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -836,25 +855,28 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Facebook_URL(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1251411300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://www.linkedin.com/in/joinsimran",
+      "val": "https://www.linkedin.com/in/simran78",
       "offset": 17
     }
   ],
   "location": "SignUpDefinition.user_will_write_in_Linkedin(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3281219100,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_enters_the_value_under_About_Yourself()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 68605000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -866,37 +888,42 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Biographical_Info(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3187959601,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_click_on_Gravatar_on_Profile_Picture_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6045489899,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "System@64#$%^\u0026",
+      "val": "Secret@123\u0026\u0026",
       "offset": 17
     }
   ],
   "location": "SignUpDefinition.user_will_write_in_New_Password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3697095000,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_click_on_Log_Out_Everywhere_Else()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 117733801,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_enter_the_value_under_Realteo_Avatar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 36838401,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -908,13 +935,15 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Agent_Avatar(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1194262700,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_check_for_Extra_profile_information()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 62300500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -926,13 +955,15 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Title(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1169447901,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_check_for_Customer_billing_address()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 66108500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -944,7 +975,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_First_Name_field(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1169399000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -956,7 +988,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Last_Name_field(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1215413300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -968,7 +1001,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Company_field(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1294431699,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -980,7 +1014,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Address_line1(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1283956601,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -992,7 +1027,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Address_line2(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1258609799,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1004,7 +1040,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_City_field(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3355460600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1016,19 +1053,22 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Postcode_ZIP(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3384933000,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_select_Country()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1125340700,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_select_State_County()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1140955300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1040,7 +1080,8 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Phone_field(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2260266300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1052,22 +1093,25 @@ formatter.match({
   "location": "SignUpDefinition.user_will_write_in_Email_address(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2219326600,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.user_will_click_Copy()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2466271400,
+  "status": "passed"
 });
 formatter.match({
   "location": "SignUpDefinition.will_click_on_Update_Profile()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4983133300,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 690638200,
+  "duration": 961032200,
   "status": "passed"
 });
 });

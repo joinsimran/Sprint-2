@@ -166,7 +166,7 @@ public class SignUpDefinition {
 	@When("^user will click on Admin Color Scheme$")
 	public void user_will_click_on_Admin_Color_Scheme()  {
 		try {
-			driver.findElement(By.xpath("//input[@id='admin_color_sunrise']")).click();
+			driver.findElement(By.xpath("//input[@id='admin_color_midnight']")).click();
 		}
 		catch (Exception e)
 		{
@@ -392,7 +392,7 @@ public class SignUpDefinition {
 		try {
 			driver.findElement(By.xpath("//*[@id=\"linkedin\"]")).clear();
 			driver.findElement(By.xpath("//*[@id=\"linkedin\"]")).sendKeys(arg1);
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 		}
 		catch (Exception e)
 		{
@@ -421,7 +421,7 @@ public class SignUpDefinition {
 		try {
 			driver.findElement(By.xpath("//*[@id=\"description\"]")).clear();
 			driver.findElement(By.xpath("//*[@id=\"description\"]")).sendKeys(arg1);
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 		}
 		catch (Exception e)
 		{
@@ -450,7 +450,7 @@ public class SignUpDefinition {
 			driver.findElement(By.xpath("//tbody/tr[@id='password']/td[1]/div[1]/button[1]/span[1]")).click();
 			driver.findElement(By.xpath("//input[@id='pass1']")).clear();
 			driver.findElement(By.xpath("//input[@id='pass1']")).sendKeys(arg1);
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 		}
 		catch (Exception e)
 		{
