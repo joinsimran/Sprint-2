@@ -21,7 +21,7 @@ Feature: I want to use this template to make changes into my profile
     And user will write "<name>" in the First Name place
     And user will write "<lastname>" in the Last Name place
     And user will write "<nickname>" in the Nickname place
-    And user will select Display name publicly as
+    And user will select from "<display>" in Display name publicly as
     When user enters the value under Contact Info
     And user will write "<email>" in Email
     And user will write "<website>" in Website
@@ -46,13 +46,16 @@ Feature: I want to use this template to make changes into my profile
     And user will write "<add_line2>" in Address line2
     And user will write "<city>" in City field
     And user will write "<pincode>" in Postcode / ZIP
-    And user will select Country
-    And user will select State / County
+    And user will select "<country>" from Country
+    And user will select "<state>" from State / County
     And user will write "<phone>" in Phone field
     And user will write "<email_id>" in Email address
     And user will click Copy
     Then will click on Update Profile
 
     Examples: 
-      | name   | lastname | nickname | email              | website            | phone_no   | twitter                      | facebook                           | linkedin                             | bio    | pwd          | avatar | title | first_name | last_name | company | add_line1   | add_line2   | city | pincode | phone      | email_id           |
-      | simran | gupta    | simmy    | simran78@gmail.com | www.indianfood.com | 9876543210 | https://twitter.com/simran78 | https://www.facebook.com/simran78/ | https://www.linkedin.com/in/simran78 | Tester | Secret@123&& | minion | Miss  | Anuradha   | Gupta     | Wipro   | Church Road | Civil Lines | Gaya |  823001 | 8791234560 | anuradha@gmail.com |
+      | name   | lastname | nickname | display      | email              | website            | phone_no   | twitter                      | facebook                           | linkedin                             | bio    | pwd          | avatar | title | first_name | last_name | company | add_line1   | add_line2    | city   | pincode | country | state | phone      | email_id           |
+      | simran | gupta    | simmy    | simran gupta | simran78@gmail.com | www.indianfood.com | 9876543210 | https://twitter.com/simran78 | https://www.facebook.com/simran78/ | https://www.linkedin.com/in/simran78 | Tester | Secret@123&& | minion | Miss  | Anuradha   | Gupta     | Wipro   | Church Road | Civil Lines  | Gaya   |  823001 | India   | Bihar | 8791234560 | anuradha@gmail.com |
+      | rachit | durgesh  | rac      | rachit       | rachit78@gmail.com | www.indianfood.com | 9876543210 | https://twitter.com/rachit78 | https://www.facebook.com/rachit78/ | https://www.linkedin.com/in/rachit78 | Tester | Secret@123&& | groot  | Mr    | Rajesh     | Sah       | TCS     | Main Road   | Police Lines | Purnia |  823551 | India   | Delhi | 8791234560 | rajesh@gmail.com   |
+      | @#$%^& | $%^&*    | $%^&&*&  | $%^&*        | simran78@gmail.com | www.indianfood.com | $%^&*(((@  | https://twitter.com/simran78 | https://www.facebook.com/simran78/ | https://www.linkedin.com/in/simran78 | Tester | Secret@123&& | minion | Miss  | Anuradha   | Gupta     | Wipro   | Church Road | Civil Lines  | Gaya   |  823001 | India   | Bihar | 8791234560 | anuradha@gmail.com |
+      | 147137 |    28638 | simmy    |        28638 | simran78@gmail.com | www.indianfood.com | sfdasajadg | https://twitter.com/simran78 | https://www.facebook.com/simran78/ | https://www.linkedin.com/in/simran78 | Tester | Secret@123&& | minion | Miss  | Anuradha   | Gupta     | Wipro   | Church Road | Civil Lines  | Gaya   |  823001 | India   | Delhi | 8791234560 | anuradha@gmail.com |

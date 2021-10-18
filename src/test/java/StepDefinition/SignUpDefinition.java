@@ -278,12 +278,16 @@ public class SignUpDefinition {
 	    
 	}
 	
-	@When("^user will select Display name publicly as$")
-	public void user_will_select_Display_name_publicly_as()  {
+	@When("^user will select from \"([^\"]*)\" in Display name publicly as$")
+	public void user_will_select_from_in_Display_name_publicly_as(String arg1)  {
 		
 		try {
-			driver.findElement(By.xpath("//*[@id=\"display_name\"]")).click();
-			driver.findElement(By.xpath("//option[contains(text(),'simran gupta')]")).click();
+			Select obj=new Select(driver.findElement(By.id("display_name")));
+			obj.selectByVisibleText(arg1);
+			
+			 //driver.findElement(By.xpath("//*[@id=\"display_name\"]")).click();
+			 //driver.findElement(By.xpath("//option[contains(text(),'simran gupta')]")).click();
+			 
 			Thread.sleep(1000);
 		}
 		catch (Exception e)
@@ -645,11 +649,13 @@ public class SignUpDefinition {
 
 	}
 
-	@When("^user will select Country$")
-	public void user_will_select_Country()  {
+	@When("^user will select \"([^\"]*)\" from Country$")
+	public void user_will_select_from_Country(String arg1)  {
 		try {
-			driver.findElement(By.xpath("//html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[3]/form[1]/table[8]/tbody[1]/tr[8]/td[1]/span[1]/span[1]/span[1]/span[1]")).click();
-			driver.findElement(By.xpath("/html[1]/body[1]/span[1]/span[1]/span[2]/ul[1]/li[104]")).click();
+			Select obj=new Select(driver.findElement(By.id("select2-billing_country-container")));
+			obj.deselectByVisibleText(arg1);
+			//driver.findElement(By.xpath("//html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[3]/form[1]/table[8]/tbody[1]/tr[8]/td[1]/span[1]/span[1]/span[1]/span[1]")).click();
+			//driver.findElement(By.xpath("/html[1]/body[1]/span[1]/span[1]/span[2]/ul[1]/li[104]")).click();
 			Thread.sleep(2000);
 		}
 		catch (Exception e)
@@ -660,12 +666,14 @@ public class SignUpDefinition {
 	}
 
 	
-	  @When("^user will select State / County$") public void
-	  user_will_select_State_County() {
+	  @When("^user will select \"([^\"]*)\" from State / County$") 
+	  public void user_will_select_from_State_County(String arg1) {
 	  
 	  try { 
-		  driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[3]/form[1]/table[8]/tbody[1]/tr[9]/td[1]/span[1]/span[1]/span[1]/span[1]")).click(); 
-		  driver.findElement(By.xpath("/html[1]/body[1]/span[1]/span[1]/span[2]/ul[1]/li[5]")).click();
+		  Select obj=new Select(driver.findElement(By.id("select2-billing_state-container")));
+		  obj.deselectByVisibleText(arg1);
+		  //driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[3]/form[1]/table[8]/tbody[1]/tr[9]/td[1]/span[1]/span[1]/span[1]/span[1]")).click(); 
+		  //driver.findElement(By.xpath("/html[1]/body[1]/span[1]/span[1]/span[2]/ul[1]/li[5]")).click();
 
 	  Thread.sleep(3000); 
 	  } 

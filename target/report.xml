@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="118.822711">
-    <testcase classname="I want to use this template to make changes into my profile" name="_2" time="118.822711">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="379.332794">
+    <testcase classname="I want to use this template to make changes into my profile" name="_2" time="99.053649">
         <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
 When admin will enter the UserId "mohankrishna176@gmail.com" and password "Secret@123&&".passed
 And admin will click on the login button....................................passed
@@ -19,7 +19,7 @@ And user will check if the Username is "admin"..............................pass
 And user will write "simran" in the First Name place........................passed
 And user will write "gupta" in the Last Name place..........................passed
 And user will write "simmy" in the Nickname place...........................passed
-And user will select Display name publicly as...............................passed
+And user will select from "simran gupta" in Display name publicly as........passed
 When user enters the value under Contact Info...............................passed
 And user will write "simran78@gmail.com" in Email...........................passed
 And user will write "www.indianfood.com" in Website.........................passed
@@ -44,8 +44,164 @@ And user will write "Church Road" in Address line1..........................pass
 And user will write "Civil Lines" in Address line2..........................passed
 And user will write "Gaya" in City field....................................passed
 And user will write "823001" in Postcode / ZIP..............................passed
-And user will select Country................................................passed
-And user will select State / County.........................................passed
+And user will select "India" from Country...................................passed
+And user will select "Bihar" from State / County............................passed
+And user will write "8791234560" in Phone field.............................passed
+And user will write "anuradha@gmail.com" in Email address...................passed
+And user will click Copy....................................................passed
+Then will click on Update Profile...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="I want to use this template to make changes into my profile" name="_3" time="90.510807">
+        <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When admin will enter the UserId "mohankrishna176@gmail.com" and password "Secret@123&&".passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the real estate page.........passed
+And will click on the Users.................................................passed
+And will click on the Your Profile..........................................passed
+Then admin will be redirected to the Your Profile page......................passed
+When user will enter the value under Personal Options.......................passed
+And user will click on Visual Editor........................................passed
+And user will click on Syntax Highlighting..................................passed
+And user will click on Admin Color Scheme...................................passed
+And user will click on Keyboard Shortcuts...................................passed
+And user will click on Toolbar..............................................passed
+When user enters the value under Name section...............................passed
+And user will check if the Username is "admin"..............................passed
+And user will write "rachit" in the First Name place........................passed
+And user will write "durgesh" in the Last Name place........................passed
+And user will write "rac" in the Nickname place.............................passed
+And user will select from "rachit" in Display name publicly as..............passed
+When user enters the value under Contact Info...............................passed
+And user will write "rachit78@gmail.com" in Email...........................passed
+And user will write "www.indianfood.com" in Website.........................passed
+And user will write "9876543210" in Phone...................................passed
+And user will write "https://twitter.com/rachit78" in Twitter...............passed
+And user will write "https://www.facebook.com/rachit78/" in Facebook URL....passed
+And user will write "https://www.linkedin.com/in/rachit78" in Linkedin......passed
+When user enters the value under About Yourself.............................passed
+And user will write "Tester" in Biographical Info...........................passed
+And user will click on Gravatar on Profile Picture field....................passed
+And user will write "Secret@123&&" in New Password..........................passed
+And user will click on Log Out Everywhere Else..............................passed
+When user will enter the value under Realteo Avatar.........................passed
+And user will write "groot" in Agent Avatar.................................passed
+When user will check for Extra profile information..........................passed
+And user will write "Mr" in Title...........................................passed
+When user will check for Customer billing address...........................passed
+And user will write "Rajesh" in First Name field............................passed
+And user will write "Sah" in Last Name field................................passed
+And user will write "TCS" in Company field..................................passed
+And user will write "Main Road" in Address line1............................passed
+And user will write "Police Lines" in Address line2.........................passed
+And user will write "Purnia" in City field..................................passed
+And user will write "823551" in Postcode / ZIP..............................passed
+And user will select "India" from Country...................................passed
+And user will select "Delhi" from State / County............................passed
+And user will write "8791234560" in Phone field.............................passed
+And user will write "rajesh@gmail.com" in Email address.....................passed
+And user will click Copy....................................................passed
+Then will click on Update Profile...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="I want to use this template to make changes into my profile" name="_4" time="97.689213">
+        <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When admin will enter the UserId "mohankrishna176@gmail.com" and password "Secret@123&&".passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the real estate page.........passed
+And will click on the Users.................................................passed
+And will click on the Your Profile..........................................passed
+Then admin will be redirected to the Your Profile page......................passed
+When user will enter the value under Personal Options.......................passed
+And user will click on Visual Editor........................................passed
+And user will click on Syntax Highlighting..................................passed
+And user will click on Admin Color Scheme...................................passed
+And user will click on Keyboard Shortcuts...................................passed
+And user will click on Toolbar..............................................passed
+When user enters the value under Name section...............................passed
+And user will check if the Username is "admin"..............................passed
+And user will write "@#$%^&" in the First Name place........................passed
+And user will write "$%^&*" in the Last Name place..........................passed
+And user will write "$%^&&*&" in the Nickname place.........................passed
+And user will select from "$%^&*" in Display name publicly as...............passed
+When user enters the value under Contact Info...............................passed
+And user will write "simran78@gmail.com" in Email...........................passed
+And user will write "www.indianfood.com" in Website.........................passed
+And user will write "$%^&*(((@" in Phone....................................passed
+And user will write "https://twitter.com/simran78" in Twitter...............passed
+And user will write "https://www.facebook.com/simran78/" in Facebook URL....passed
+And user will write "https://www.linkedin.com/in/simran78" in Linkedin......passed
+When user enters the value under About Yourself.............................passed
+And user will write "Tester" in Biographical Info...........................passed
+And user will click on Gravatar on Profile Picture field....................passed
+And user will write "Secret@123&&" in New Password..........................passed
+And user will click on Log Out Everywhere Else..............................passed
+When user will enter the value under Realteo Avatar.........................passed
+And user will write "minion" in Agent Avatar................................passed
+When user will check for Extra profile information..........................passed
+And user will write "Miss" in Title.........................................passed
+When user will check for Customer billing address...........................passed
+And user will write "Anuradha" in First Name field..........................passed
+And user will write "Gupta" in Last Name field..............................passed
+And user will write "Wipro" in Company field................................passed
+And user will write "Church Road" in Address line1..........................passed
+And user will write "Civil Lines" in Address line2..........................passed
+And user will write "Gaya" in City field....................................passed
+And user will write "823001" in Postcode / ZIP..............................passed
+And user will select "India" from Country...................................passed
+And user will select "Bihar" from State / County............................passed
+And user will write "8791234560" in Phone field.............................passed
+And user will write "anuradha@gmail.com" in Email address...................passed
+And user will click Copy....................................................passed
+Then will click on Update Profile...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="I want to use this template to make changes into my profile" name="_5" time="92.079125">
+        <system-out><![CDATA[Given Admin is on the login page of Real Estate.............................passed
+When admin will enter the UserId "mohankrishna176@gmail.com" and password "Secret@123&&".passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the real estate page.........passed
+And will click on the Users.................................................passed
+And will click on the Your Profile..........................................passed
+Then admin will be redirected to the Your Profile page......................passed
+When user will enter the value under Personal Options.......................passed
+And user will click on Visual Editor........................................passed
+And user will click on Syntax Highlighting..................................passed
+And user will click on Admin Color Scheme...................................passed
+And user will click on Keyboard Shortcuts...................................passed
+And user will click on Toolbar..............................................passed
+When user enters the value under Name section...............................passed
+And user will check if the Username is "admin"..............................passed
+And user will write "147137" in the First Name place........................passed
+And user will write "28638" in the Last Name place..........................passed
+And user will write "simmy" in the Nickname place...........................passed
+And user will select from "28638" in Display name publicly as...............passed
+When user enters the value under Contact Info...............................passed
+And user will write "simran78@gmail.com" in Email...........................passed
+And user will write "www.indianfood.com" in Website.........................passed
+And user will write "sfdasajadg" in Phone...................................passed
+And user will write "https://twitter.com/simran78" in Twitter...............passed
+And user will write "https://www.facebook.com/simran78/" in Facebook URL....passed
+And user will write "https://www.linkedin.com/in/simran78" in Linkedin......passed
+When user enters the value under About Yourself.............................passed
+And user will write "Tester" in Biographical Info...........................passed
+And user will click on Gravatar on Profile Picture field....................passed
+And user will write "Secret@123&&" in New Password..........................passed
+And user will click on Log Out Everywhere Else..............................passed
+When user will enter the value under Realteo Avatar.........................passed
+And user will write "minion" in Agent Avatar................................passed
+When user will check for Extra profile information..........................passed
+And user will write "Miss" in Title.........................................passed
+When user will check for Customer billing address...........................passed
+And user will write "Anuradha" in First Name field..........................passed
+And user will write "Gupta" in Last Name field..............................passed
+And user will write "Wipro" in Company field................................passed
+And user will write "Church Road" in Address line1..........................passed
+And user will write "Civil Lines" in Address line2..........................passed
+And user will write "Gaya" in City field....................................passed
+And user will write "823001" in Postcode / ZIP..............................passed
+And user will select "India" from Country...................................passed
+And user will select "Delhi" from State / County............................passed
 And user will write "8791234560" in Phone field.............................passed
 And user will write "anuradha@gmail.com" in Email address...................passed
 And user will click Copy....................................................passed
